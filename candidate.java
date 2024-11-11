@@ -40,7 +40,6 @@ public void display()
 
 }
 
-public class main {
     public static void main(String[] args) {
         candidate cad = new candidate();
         cad.enter();
@@ -48,7 +47,6 @@ public class main {
     }
 }
 
-}
 
 
 

@@ -13,6 +13,7 @@ public class supply {
         foodname = "contains egg";
         if(sticker.equals("yellow"))
         foodname = "non vergetarian";
+    }
 // we have used scanner class to demonstrate the values which needs to be entered
 
 public void foodin() {
@@ -38,15 +39,13 @@ public void foodin() {
         System.out.println("enter the type of food:" + foodtype);
     }
 
-    }
+    
      
-    class foodsuply
-    {
         public static void main(String[] args) {
             supply sup = new supply();
             sup.foodin();
             sup.foodout();
         }
 
+    
     }
-
